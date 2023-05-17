@@ -1,15 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,700&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
 body{
     text-align: center;
 }
 /*header*/
+header{
+    background-color: black;
+    color: #ffffff;
+}
 #titulo{
     font-size: 100px;
     text-align: center;
+    font-family: 'Zilla Slab', serif;
 }
 /*main*/
+h3{
+    margin: 5px;
+}
+main{
+    background-color: rgb(62, 202, 62);
+   padding-top: 25px;
+}
 .icons{
     margin: 5px;
 }
 table{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 25px;
     margin:0 auto;
+    background-color: rgba(0, 0, 0, 0.63);
+    border-radius: 77px;
+}
+th{
+    border: 2px #00000000 solid;
 }
